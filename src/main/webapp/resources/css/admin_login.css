@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+.pop_layer {
+	border: 3px solid #000000;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 300px;
+	transform: translate(-50%, -50%);
+	/* 	display : none; */
+}
+
+#modal {
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.pop_content {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.pop_close {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+
+.pop_c{
+	background-color: yellow;
+	width:240px;
+	
+}
+
+
+a:hover{
+	background-color:mint;
+}
